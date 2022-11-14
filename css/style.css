@@ -58,13 +58,20 @@ p {
 
 .header-tex-title {
     font-size: 48px;
-    border-bottom: 2px solid #767676;
     color: #fff;
     padding-bottom: 10px;
 }
 
+.hr {
+    background-color: #767676;
+    height: 2px;
+    opacity: 0.5;
+}
+
 .cursor {
     border-right: 1px solid #FFF;
+    box-sizing: content-box;
+    padding-right: 7px;
 }
 
 .menu {
